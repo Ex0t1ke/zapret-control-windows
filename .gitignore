@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+build/
+dist/
+config.json
+
+# Node & Frontend
+extracted_interface/node_modules/
+extracted_interface/.pnpm-store/
+.mise.toml
+
+# Release zips (not in git repo, uploaded to releases)
+*.zip
+
+# OS / Editor
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
